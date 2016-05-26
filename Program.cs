@@ -19,6 +19,10 @@ namespace DesignPattern
 
 			car.GoBack ();
 
+
+			CarNew.CreateCar ("120").SetOut ();
+			CarNew.CreateCar ("120").GoBack ();
+
 			Console.ReadKey ();
 		}
 	}
